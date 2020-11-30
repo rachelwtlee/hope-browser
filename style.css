@@ -29,7 +29,7 @@ h3 {
     line-height: 1.5em;
 }
 
-h3, p {
+h3, p, a {
     color: #444;
 }
 
@@ -129,15 +129,15 @@ ul li {
 /*SLIDING NAV MENU*/
 #sidepagemain {
   height: 100%;
-  width: 43.25%; 
+  width: 43.25%;
   position: fixed;
-  z-index: 4; 
+  z-index: 4;
   top: 0;
   left: -1000;
   background-color: #FE653B;
-  overflow-x: hidden; 
+  overflow-x: hidden;
   padding: 12em 0 0 3em;
-  transition: 0.75s;  
+  transition: 0.75s;
 }
 
 #sidepagemain h1, #sidepagefeature h2 {
@@ -185,16 +185,16 @@ ul li {
 
 #sidepagefeature {
   height: 100%;
-  width: 43.25%; 
+  width: 43.25%;
   position: fixed;
-  z-index: 3; 
+  z-index: 3;
   top: 0;
   left: -1500;
   background-color: #FE653B;
   border-left: 0.5px solid white;
-  overflow-x: hidden; 
+  overflow-x: hidden;
   padding: 12em 0 0 3em;
-  transition: 0.75s;  
+  transition: 0.75s;
 }
 
 /*NAV MENU END/
@@ -384,7 +384,7 @@ ul li {
 }
 
 #lucasSinStories {
-   border-bottom: 1px solid #FE653B; 
+   border-bottom: 1px solid #FE653B;
 }
 
 .checklist {
@@ -475,7 +475,7 @@ input[type=text] {
   border: none;
   border-bottom: 1px solid #FE653B;
   color: #FE653B;
-  background-color:#FFD1C3; 
+  background-color:#FFD1C3;
 }
 
 #tinyDesk figcaption {
@@ -515,7 +515,7 @@ input[type=text] {
 }
 
 .rotate {
-    animation: rotation 10s infinite linear; 
+    animation: rotation 10s infinite linear;
 }
 
 @keyframes rotation {
@@ -550,7 +550,7 @@ input[type=text] {
 }
 
 #starQuote1.show, #starQuote1Stories.show, #starQuote2Stories.show, #starQuote3Stories.show {
-    display: block; 
+    display: block;
 }
 
 .clear {
